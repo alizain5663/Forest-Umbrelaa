@@ -9,6 +9,7 @@ import { FooterComponent } from './MainComponent/footer/footer.component';
 import { AboutUsComponent } from './MainComponent/about-us/about-us.component';
 import { ServicesComponent } from './MainComponent/services/services.component';
 import { ContactComponent } from './MainComponent/contact/contact.component';
+import { StartComponent } from './MainComponent/start/start.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ContactComponent } from './MainComponent/contact/contact.component';
     FooterComponent,
     AboutUsComponent,
     ServicesComponent,
-    ContactComponent
+    ContactComponent,
+    StartComponent
   ],
   imports: [
     CommonModule,
