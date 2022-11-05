@@ -16,9 +16,18 @@
 
 } */
 p{
-  color: #676A6B;
+  
+    font-family: 'Andada Pro', serif;
+      font-size: 14px;
+      line-height: 22px;
+      color: #676a6b;
+      font-weight: 300;
 }
-
+/* icons color start */
+#icons{
+  color: rgb(173, 230, 185);
+}
+/* icons color end */
   /* icons rotate */
   .card1:hover{
     /* transform: translateY(-10px);
@@ -37,4 +46,8 @@ p{
 
 .l{
   height: 70vh;
+}
+h4{
+  color:rgb(0, 61, 43);
+  font-family: 'Oswald', sans-serif;
 }
