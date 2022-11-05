@@ -10,6 +10,9 @@ import { AboutUsComponent } from './MainComponent/about-us/about-us.component';
 import { ServicesComponent } from './MainComponent/services/services.component';
 import { ContactComponent } from './MainComponent/contact/contact.component';
 import { StartComponent } from './MainComponent/start/start.component';
+import { PrivacyComponent } from './MainComponent/privacy/privacy.component';
+import { TermsComponent } from './MainComponent/terms/terms.component';
+import { ModernslaveryComponent } from './MainComponent/modernslavery/modernslavery.component';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import { StartComponent } from './MainComponent/start/start.component';
     AboutUsComponent,
     ServicesComponent,
     ContactComponent,
-    StartComponent
+    StartComponent,
+    PrivacyComponent,
+    TermsComponent,
+    ModernslaveryComponent
   ],
   imports: [
     CommonModule,
