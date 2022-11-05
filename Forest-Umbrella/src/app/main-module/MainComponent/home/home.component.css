@@ -1,3 +1,5 @@
+
+
 /* waves  */
 
 h1 {
@@ -16,13 +18,13 @@ h1 {
   .header {
     position:relative;
     text-align:center;
-    background: linear-gradient(120deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    background: linear-gradient(120deg, #003e29 0%, #467061 100%);
     color:white;
   }
   
   
   .inner-header {
-    height:65vh;
+    height:80vh;
     width:100%;
     margin: 0;
     padding: 0;
@@ -95,7 +97,7 @@ h1 {
   }
   /* waves  */
   .factscolor{
-    background-color: green;
+    background: linear-gradient(120deg, #003e29 0%, #467061 100%);
   }
   .b{
     border-bottom: 10px solid black;
@@ -107,32 +109,55 @@ h1 {
     box-shadow: 0 25px rgb(0 0 0 /15%); */
     box-shadow: -0.4rem 0.8rem 1.4rem 1.4rem #0003;
     transition: all .5s linear;
+   
+    
   }
   .card .icon:hover{
     transform: rotate(60deg);
   }
 
-  .faq-h5{
-    color: black;
-}
-.faq-h3{
+ 
+.faq-h4{
     line-height: inherit;
-    color: black;
+    
 }
 .faq-p{
     color: white;
 }
 .faq{
-  background-color: green;
+  background-color: #003e29;
+}
+
+p{
+
+  font-family: 'Andada Pro', serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #676a6b;
+    font-weight: 300;
+}
+
+/* icons color start */
+#icons{
+  color: rgb(173, 230, 185);
+}
+/* icons color end */
+
+
+
+h4{
+  color:rgb(0, 61, 43);
+  font-family: 'Oswald', sans-serif;
 }
 
 
+.bg-color{
+  background-color:#467061;
+}
+.faq-color{
+  background-color:#467061;
 
-
-
-
-
-
+}
 
 
 
@@ -143,7 +168,7 @@ h1 {
 
 /* form  */
 .formCol-1{
-  background-color: green;
+  background-color: #003e29;
   
 }
 .section-border{
@@ -159,19 +184,23 @@ border-radius:0 30px 30px 0;
 
 }
 .btn-text{
-  color: rgb(233, 116, 81);
+  color:rgb(173, 230, 185) ;
 
 }
 .btn-text:hover{
-  color:black;
+  color:rgb(173, 230, 185);
+ 
+  
   
 }
+
 .btn-2{
   background-color:black;
   
 }
 .btn-submit{
   border-radius: 10px;
+  background-color: #003e29;
 }
 /* form  */
 
