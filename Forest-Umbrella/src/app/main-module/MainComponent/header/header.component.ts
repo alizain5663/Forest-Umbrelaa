@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -11,5 +11,14 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  header_variable=false
+@HostListener("document:scroll")
+scrollfunction(){
+  if(document.body.scrollTop> 488 || document.documentElement.scrollTop>488){
+    this.header_variable=true
+  }
+  else{
+    this.header_variable=false
+  }
+}
 }
