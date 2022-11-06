@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-terms',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TermsComponent implements OnInit {
 
-  constructor() { }
+  // getFragment:any;
+  // constructor(private _ActivatedRoute:ActivatedRoute, private _Router:Router) { }
 
   ngOnInit(): void {
   }
