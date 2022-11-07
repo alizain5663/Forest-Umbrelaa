@@ -53,3 +53,11 @@ h4{
   font-family: 'Libre Baskerville';
 
 }
+
+.demo-button:hover{
+  color: white;
+  background: linear-gradient(120deg, #003e29 0%, #467061 100%);
+
+}
+
+/* background: linear-gradient(120deg, #003e29 0%, #467061 100%); */
