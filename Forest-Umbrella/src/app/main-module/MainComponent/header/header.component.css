@@ -20,7 +20,7 @@ p a{
     border-radius: 50%;
     margin-right: 4px; }
     .social-media p a span {
-      color: #4d4d4d; }
+      color: white; }
     .social-media p a:hover {
       background:rgb(173, 230, 185);
       border-color: rgb(173, 230, 185); }

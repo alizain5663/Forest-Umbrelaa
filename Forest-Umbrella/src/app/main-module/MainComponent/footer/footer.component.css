@@ -29,7 +29,7 @@ a {
       .footer-48201 .nav-links li a:hover {
         color: #fff; }
   .footer-48201 .btn.btn-tertiary {
-    background-color: #e42c64;
+    background: linear-gradient(120deg, #003e29 0%, #467061 100%);
     color: #fff;
     border-radius: 30px;
     border: none;
@@ -43,3 +43,16 @@ a {
         color: #fff; }
   .footer-48201 .copyright {
     border-top: 1px solid #404040; }
+
+    p{
+  font-family: 'Andada Pro', serif;
+
+    }
+    a{
+  font-family: 'Andada Pro', serif;
+
+    }
+    h4{
+  font-family: 'Libre Baskerville';
+
+    }
