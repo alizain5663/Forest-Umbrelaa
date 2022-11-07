@@ -1,16 +1,14 @@
-*{
-    font-family: Merriweather ;
-}
+
 
 .approach-h2{
-    color:rgb(255, 87, 51)
+    color:#003e29;
 }
 .LC{
-    background-color: rgb(255, 87, 51);
+    background-color: #003e29;
     color: white;
 }
 .PU{
-    background-color: rgb(255, 87, 51);
+    background-color: #003e29;
     color: white;
 }
 .fonts{
@@ -40,11 +38,11 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     transition: .5s;
-    color: rgb(233, 116, 81);
+    color: #003e29;
     background-color: white;
 }
 .interest{
-    background-color: rgb(233, 116, 81);
+    background-color: #003e29;
     height: 70vh;
 }
 
@@ -53,28 +51,37 @@
     height: 60vh;
 }
 h3{
-    color:rgb(233, 116, 81);
+    color:#003e29;
 }
 
 .hrcolor{
-    background-color: #FF5733;
+    background-color: #003e29;
     height: 5px;
     
 }
 
+h4{
+    color:rgb(0, 61, 43);
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Libre Baskerville';
+  
+    
+  }
 
-/* calculator start */
-.calc{
-    background-color:rgb(233, 116, 81) ;
-}
-.headingcolor{
-    color:rgb(233, 116, 81)  ;
-}
-.calcbtn{
-    border-color: #FF5733;
-}
-.calcbtn:hover{
-    background-color: #FF5733;
-    color:white;
-}
-/* calculator end */
+p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size:14px;
+    color: #333333;
+  }
+  .card1:hover{
+    /* transform: translateY(-10px);
+    box-shadow: 0 25px rgb(0 0 0 /15%); */
+    box-shadow: -0.4rem 0.8rem 1.4rem 1.4rem #0003;
+    transition: all .5s linear;
+   
+    
+  }
+  #icons{
+    color: rgb(173, 230, 185);
+  }
