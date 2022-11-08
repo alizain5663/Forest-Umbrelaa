@@ -1,7 +1,9 @@
 .font-fam{
     font-family: 'Libre Baskerville';
   }
-  
+.card-color{
+    background: linear-gradient(120deg, #003e29 0%, #467061 100%);
+}
 
 .approach-h2{
     color:#003e29;

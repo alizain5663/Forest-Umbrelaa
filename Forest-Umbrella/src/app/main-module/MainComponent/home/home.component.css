@@ -225,6 +225,17 @@ border-radius:0 30px 30px 0;
 }
 .top-two-button:hover{
   background-color: white;
+  color: #003e29;
+}
+
+.demo-button{
+  color: white;
+  background: linear-gradient(120deg, #003e29 0%, #467061 100%);
+}
+.demo-button:hover{
+  background: white;
+  color: #003e29;
+
 }
 
 
@@ -258,7 +269,7 @@ border-radius:0 30px 30px 0;
 
 
 
-#contact {
+.contact {
   /* background-color: #6a9ac4; */
   display: flex;
   justify-content: center;

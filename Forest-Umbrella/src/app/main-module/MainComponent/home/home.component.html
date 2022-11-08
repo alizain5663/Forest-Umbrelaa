@@ -5,9 +5,11 @@
     
    <div class="row">
     <div class="col-lg-12">
-        <h1 style="color: rgb(173, 230, 185); " class="fw-bold  font-fam animate__animated wow animate__fadeInDownBig">READY FOR PAYROLL</h1>
-        <button class="font-fam btn btn-sm  px-4 py-2 rounded-pill top-two-button" [routerLink]="['/contact']"><i class=" mx-2 bi bi-telephone"></i>Contact Us</button>
-        <button class="font-fam btn-sm btn px-5 py-2 rounded-pill mx-2 top-two-button">Services</button>
+        <h1 style="color: rgb(173, 230, 185); " class="fw-bold  font-fam animate__animated wow animate__fadeInDownBig">FOREST UMBRELLA</h1>
+        <h3 style="color: rgb(173, 230, 185); " class="fw-bold  font-fam animate__animated wow animate__fadeInDownBig">"READY FOR PAYROLL"</h3>
+        <div class="my-5"> <button class="font-fam btn btn-sm  px-4 py-2 rounded top-two-button" routerLink="/contact" fragment="contact"><i class=" mx-2 bi bi-telephone"></i>Contact Us</button>
+            <button class="font-fam btn-sm btn px-5 py-2 rounded mx-2 top-two-button" [routerLink]="['/service']">Services</button></div>
+        
     </div>
    </div>
 
@@ -97,7 +99,13 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-3">
+                <div class="mx-5 mt-3 col-md-12 ">
+                    <button class="btn px-5 rounded-pill demo-button border border-success" routerLink="/home" fragment="form">Book A Demo</button>
+                </div>
+            </div>
         </div>
+        
     </div> 
     
 </div>
@@ -114,7 +122,7 @@
         </div>
         <div class="row gx-5 gy-5 ">
             <div class="col-lg-4">
-                <div class="card1 animate__animated wow animate__fadeInDownBig card">
+                <div class="card1 h-100 animate__animated wow animate__fadeInDownBig card">
                     <div class="card-body py-5 p-5">
                         <div class="text-center card-text">
                             <h4><i  id="icons" class="icon fas fa-crown fs-1" ></i></h4>    
@@ -131,7 +139,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card1 card animate__animated wow animate__fadeInDownBig">
+                <div class="card1 h-100 card animate__animated wow animate__fadeInDownBig">
                     <div class="card-body py-5 p-5">
                         <div class="text-center card-text">
                             <h4><i  id="icons" class="bi bi-person icon fs-1"></i></h4>    
@@ -215,7 +223,7 @@
 
           <div class="row mt-5 gx-5 gy-5">
             <div class="col-lg-4">
-                <div class="card card1 p-5 animate__animated wow animate__fadeInDownBig">
+                <div class="card h-100 card1 p-5 animate__animated wow animate__fadeInDownBig">
                     <div class="card-body">
                         <div class="card-text">
                          <h4><i  id="icons" class="bi bi-clock-history icon"></i></h4>   
@@ -261,7 +269,12 @@
                 </div>
             </div>
           </div>
-           
+          <div class="row mt-3">
+            <div class="mx-5 mt-3 col-md-12 ">
+                <button class="btn px-5 rounded-pill demo-button border border-success" routerLink="/home" fragment="form">Book A Demo</button>
+            </div>
+            
+        </div>
         </div>
     </div>
     <!-- our core beleifs end  -->
@@ -276,7 +289,7 @@
         </div>
         <div class="row mt-5 gx-5 gy-5">
             <div class="col-lg-4">
-                <div class="card card1 p-5 animate__animated wow animate__fadeInDownBig">
+                <div class="card  card1 p-5 animate__animated wow animate__fadeInDownBig">
                     <div class="card-body">
                         <div class="card-text">
                         <h4><i  id="icons" class="bi bi-people-fill icon "></i></h4>    
@@ -291,7 +304,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card card1 p-5 animate__animated wow animate__fadeInDownBig">
+                <div class="card card1 h-100 p-5 animate__animated wow animate__fadeInDownBig">
                     <div class="card-body">
                         <div class="card-text">
                         <h4><i  id="icons" class="bi bi-telephone-inbound icon" ></i></h4>    
@@ -306,7 +319,7 @@
                     </div>
             </div>
             <div class="col-lg-4">
-                <div class="card card1 p-5 animate__animated wow animate__fadeInDownBig">
+                <div class="card h-100 card1 p-5 animate__animated wow animate__fadeInDownBig">
                     <div class="card-body">
                         <div class="card-text">
                         <h4><i  id="icons" class="bi bi-people icon "></i></h4>      
@@ -544,8 +557,8 @@
 
 
 
-<section id="contact">
-    <div class="contact-box">
+<section class="contact" id="form" >
+    <div class="contact-box" >
       <div class="contact-links">
         <h2 class="font-fam">CONTACT</h2>
         <div class="links text-white">
